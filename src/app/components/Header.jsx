@@ -10,7 +10,7 @@ export default function Header() {
           <Link className="py-2 hover:text-white transition" href={'/'}>Menu</Link>
           <Link className="py-2 hover:text-white transition" href={'/'}>About</Link>
           <Link className="py-2 hover:text-white transition" href={'/'}>Contact</Link>
-          <Link className="hover:text-white transition hover:bg-primary-600 rounded-lg bg-primary-500 px-4 py-2" href={'/'}>Enter</Link>
+          <Link className="hover:text-white transition hover:bg-primary-600 rounded-lg bg-primary-500 px-4 py-2" href={'/enter'}>Enter</Link>
         </nav>
       </header>
     </>
